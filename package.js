@@ -1,8 +1,9 @@
 Package.describe({
   name: 'astrocoders:component',
   version: '0.0.1',
-  summary: '',
-  documentation: 'README.md'
+  summary: 'Component class base',
+  documentation: 'README.md',
+  git: 'https://github.com/Astrocoders/meteor-astrocoders-component',
 });
 
 Package.onUse(function(api) {
@@ -11,7 +12,7 @@ Package.onUse(function(api) {
     'ecmascript',
     'jquery',
   ]);
-  
+
   api.addFiles('component.js');
   api.export('AstroComponent');
 });
